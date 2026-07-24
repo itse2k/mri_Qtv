@@ -11,9 +11,13 @@ README.md
 
 # Configuração e segredos específicos do repo
 config/*
+shared/config.lua
 *.local.lua
 .env
 .env.*
+
+# Assets NUI customizados
+web/*
 
 # O próprio agendamento do sync
 .github/workflows/template-sync.yml
